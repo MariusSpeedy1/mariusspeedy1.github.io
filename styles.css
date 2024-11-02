@@ -31,12 +31,10 @@ a {
 }
 
 .page {
-    
-    background-image: url("https://www.particle.io/static/338d3b2df00e819f136781d56cf62995/253f6/home-hero-background.png");
-    background-repeat: none;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(124, 160, 197);
+    size: 100vh;
+    background-color: rgb(34, 145, 250);
+    background-image: linear-gradient(to left, rgb(65, 160, 248) , rgb(9, 109, 223));
+
     width: auto auto;
     margin: 0 auto;
 }
